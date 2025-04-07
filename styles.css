@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 0 200px 0 200px;
+    padding: 0 200px;
 }
 
 .header ul {
@@ -37,7 +37,7 @@ body {
 
 .section1 {
     background-color: #1F2937;
-    padding: 64px 200px 64px 200px;
+    padding: 64px 200px;
     display: flex;
     align-items: stretch;
     justify-content: center;
@@ -69,10 +69,11 @@ body {
 
 .button {
     background-color: #3882F6;
-    padding: 10px 25px;
+    padding: 8px 32px;
     border-radius: 5px;
     border: none;
     color: #F9FAF8;
+    font-size: medium;
 }
 
 .footer {
@@ -129,7 +130,7 @@ body {
 
 .section3 {
     background-color: #E5E7EB;
-    padding: 64px 200px 64px 200px;
+    padding: 64px 200px;
     display: flex;
     flex-direction: column;
 }
@@ -152,3 +153,37 @@ body {
     justify-content: right;
 }
 
+.section4 {
+    justify-content: center;
+    align-items: center;
+    padding: 64px 200px;
+}
+
+.blue-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 48px 100px;
+    border-radius: 10px;
+}
+
+.call-to-action h1{
+    font-size: 24px;
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.call-to-action p {
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.blue-box button {
+    background-color: transparent;
+    padding: 8px 32px;
+    border-radius: 5px;
+    border: solid #F9FAF8;
+    color: #F9FAF8;
+    font-size: medium;
+}
