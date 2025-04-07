@@ -1,5 +1,5 @@
 * {
-    font-family: 'Robot', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -126,3 +126,29 @@ body {
     text-align: center;
     width: 200px;
 }
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 64px 200px 64px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section3 .quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.section3 .author strong {
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.section3 .author {
+    display: flex;
+    justify-content: right;
+}
+
